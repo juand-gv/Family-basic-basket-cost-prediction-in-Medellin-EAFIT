@@ -27,15 +27,15 @@
 <br />
 <p align="center">
   <a href="https://github.com/morbid-face/ProyectoEquipo3_eafit">
-    <img src="readme_images/logos.png" alt="Logo" width="80" height="80">
+    <img src="readme_images/logos.png" alt="Logo" width="500" height="200">
   </a>
 
-  <h3 align="center">Aquí irá el nombre del proyecto</h3>
+  <h2 align="center">Proyecto Equipo3 EAFIT</h2>
 
   <p align="center">
-    # ProyectoEquipo3_eafit
     Descripción del Proyecto: 
     Este es un repositorio al que se irá subiendo el progreso del proyecto del curso de Data Science dictador por EAFIT, diseñado por IDATA y apoyado por Microsoft.
+    En esta parte se explicará de que trata el proyecto en general.
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
