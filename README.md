@@ -30,21 +30,20 @@
     <img src="readme_images/logos.png" alt="Logo" width="500" height="200">
   </a>
 
-  <h2 align="center">Proyecto Equipo3 EAFIT</h2>
+  <h2 align="center">Family basic basket cost prediction in Colombia</h2>
 
   <p align="center">
-    Descripción del Proyecto: 
-    Este es un repositorio al que se irá subiendo el progreso del proyecto del curso de Data Science dictador por EAFIT, diseñado por IDATA y apoyado por Microsoft.
-    En esta parte se explicará de que trata el proyecto en general.
+    Objective:
+    To design a prediction model for time series that allows forecasting the prices of the basic family basket in Colombia. 
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/morbid-face/ProyectoEquipo3_eafit"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/morbid-face/ProyectoEquipo3_eafit">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/morbid-face/ProyectoEquipo3_eafit/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/morbid-face/ProyectoEquipo3_eafit/issues">Request Feature</a>
   </p>
 </p>
 
@@ -81,10 +80,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
 Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
+The products and services that make up the Family Basket, as well as the criteria for selecting them and the eventual changes that it presents, reflect the consumption habits of Colombian households, helping to understand what happens with people's consumption and its evolution over time.
+Therefore, predicting the prices of the basic family basket in Colombia plays a fundamental role in obtaining a long-term vision of the market and making relevant strategic decisions.
+<!--**To avoid retyping too much info. Do a search and replace with your text editor for the following:**-->
 `github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
 
 
@@ -113,7 +114,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/morbid-face/ProyectoEquipo3_eafit.git
    ```
 2. Install NPM packages
    ```sh
@@ -134,7 +135,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/morbid-face/ProyectoEquipo3_eafit/issues) for a list of proposed features (and known issues).
 
 
 
@@ -163,7 +164,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/morbid-face/ProyectoEquipo3_eafit](https://github.com/morbid-face/ProyectoEquipo3_eafit)
 
 
 
@@ -180,15 +181,15 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/morbid-face/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/morbid-face/repo/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/morbid-face/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/morbid-face/repo/network/members
+[stars-shield]: https://img.shields.io/github/stars/morbid-face/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/morbid-face/repo/stargazers
+[issues-shield]: https://img.shields.io/github/issues/morbid-face/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/morbid-face/repo/issues
+[license-shield]: https://img.shields.io/github/license/morbid-face/repo.svg?style=for-the-badge
+[license-url]: https://github.com/morbid-face/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
+[linkedin-url]: https://linkedin.com/in/morbid-face
