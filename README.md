@@ -135,7 +135,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 <p align="center">
-  <img src="readme_images/WorkFlow_Diagram.png" alt="WorkFlow" width="500" height="500" class="center">
+  <img src="readme_images/WorkFlow_Diagram.png" alt="WorkFlow" width="500" height="300" class="center">
 </p>
 
 
