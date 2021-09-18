@@ -134,8 +134,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Roadmap
-
-See the [open issues](https://github.com/morbid-face/ProyectoEquipo3_eafit/issues) for a list of proposed features (and known issues).
+<p align="center">
+  <img src="readme_images/WorkFlow_Diagram.png" alt="WorkFlow" width="500" height="500" class="center">
+</p>
 
 
 
