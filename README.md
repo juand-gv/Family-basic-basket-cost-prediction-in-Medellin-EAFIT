@@ -22,7 +22,6 @@
 -->
 
 
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -30,11 +29,11 @@
     <img src="readme_images/logos.png" alt="Logo" width="500" height="200">
   </a>
 
-  <h2 align="center">Family basic basket cost prediction in Colombia</h2>
+  <h2 align="center">Family basic basket cost prediction in Medellín</h2>
 
   <p align="center">
     Objective:
-    To design a prediction model for time series that allows forecasting the prices of the basic family basket in Colombia. 
+    Design a model that allows the basic family basket prices time series in Medellin using some related municipalities and variables such as TRM and ACPM.
     <br />
     <a href="https://github.com/morbid-face/ProyectoEquipo3_eafit"><strong>Explore the docs »</strong></a>
     <br />
@@ -59,22 +58,11 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#resoults">Resoults</a></li>
+    <li><a href="#conclusions">Conclusions</a></li>
   </ol>
 </details>
-
 
 
 <!-- ABOUT THE PROJECT -->
@@ -82,53 +70,15 @@
 
 <!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
-Here's a blank template to get started:
-The products and services that make up the Family Basket, as well as the criteria for selecting them and the eventual changes that it presents, reflect the consumption habits of Colombian households, helping to understand what happens with people's consumption and its evolution over time.
-Therefore, predicting the prices of the basic family basket in Colombia plays a fundamental role in obtaining a long-term vision of the market and making relevant strategic decisions.
-<!--**To avoid retyping too much info. Do a search and replace with your text editor for the following:**-->
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+The prices of the basic family basket depend on many factors, among them the cost of transportation, gasoline, fertilizers, dollar, among others. Forecasting the prices of the basic family basket would represent a great advantage for Colombian families when budgeting their expenses and having a better understanding of price variations. 
+
+Since factors such as location, road conditions and food production are very particular to each municipality, it was decided to address the problem at a regional level.
 
 
 ### Built With
 
-* []()
-* []()
-* []()
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/morbid-face/ProyectoEquipo3_eafit.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+* [Databricks](https://databricks.com/)
+* [Orbit](https://github.com/uber/orbit)
 
 
 
@@ -139,42 +89,29 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 </p>
 
 
+<!-- RESULTS -->
+## Resoults
+Basic family basket prices during a month using the most correlated municipalities.
+Here we get a MAPE of 5.278%
+<p align="center">
+  <img src="readme_images/model_performance.png" alt="performance1" width="500" height="300" class="center">
+</p>
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+Basic family basket prices during a month using the most correlated municipalities and including ACPM cost.
+Here we get a MAPE of 2.976%. 
+<p align="center">
+  <img src="readme_images/model_performance_2.png" alt="performance1" width="500" height="300" class="center">
+</p>
 
 
+<!-- CONCLUSIONS -->
+## Conclusions
+Some external factors such as TRM may not have a strong influence in the basic family basket forecas. While others like ACPM price, may be very relevant for making predictions.
+In order to improve the performance of the model; the amount of data must be increased. Also, taking into account more factors like price of fertilizers, farm labor, etc could have a positive impact in the performance.
 
-<!-- CONTACT -->
-## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
 Project Link: [https://github.com/morbid-face/ProyectoEquipo3_eafit](https://github.com/morbid-face/ProyectoEquipo3_eafit)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
 
 
 
